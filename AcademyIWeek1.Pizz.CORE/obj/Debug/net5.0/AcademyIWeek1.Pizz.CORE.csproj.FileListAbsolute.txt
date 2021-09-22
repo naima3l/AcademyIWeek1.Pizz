@@ -1,0 +1,12 @@
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.CORE\obj\Debug\net5.0\AcademyIWeek1.Pizz.CORE.csproj.AssemblyReference.cache
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.CORE\obj\Debug\net5.0\AcademyIWeek1.Pizz.CORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.CORE\obj\Debug\net5.0\AcademyIWeek1.Pizz.CORE.AssemblyInfoInputs.cache
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.CORE\obj\Debug\net5.0\AcademyIWeek1.Pizz.CORE.AssemblyInfo.cs
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.CORE\obj\Debug\net5.0\AcademyIWeek1.Pizz.CORE.csproj.CoreCompileInputs.cache
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.CORE\bin\Debug\net5.0\AcademyIWeek1.Pizz.CORE.deps.json
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.CORE\bin\Debug\net5.0\AcademyIWeek1.Pizz.CORE.dll
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.CORE\bin\Debug\net5.0\ref\AcademyIWeek1.Pizz.CORE.dll
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.CORE\bin\Debug\net5.0\AcademyIWeek1.Pizz.CORE.pdb
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.CORE\obj\Debug\net5.0\AcademyIWeek1.Pizz.CORE.dll
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.CORE\obj\Debug\net5.0\ref\AcademyIWeek1.Pizz.CORE.dll
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.CORE\obj\Debug\net5.0\AcademyIWeek1.Pizz.CORE.pdb

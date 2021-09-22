@@ -1,0 +1,15 @@
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.RepositoryMock\obj\Debug\net5.0\AcademyIWeek1.Pizz.RepositoryMock.csproj.AssemblyReference.cache
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.RepositoryMock\obj\Debug\net5.0\AcademyIWeek1.Pizz.RepositoryMock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.RepositoryMock\obj\Debug\net5.0\AcademyIWeek1.Pizz.RepositoryMock.AssemblyInfoInputs.cache
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.RepositoryMock\obj\Debug\net5.0\AcademyIWeek1.Pizz.RepositoryMock.AssemblyInfo.cs
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.RepositoryMock\obj\Debug\net5.0\AcademyIWeek1.Pizz.RepositoryMock.csproj.CoreCompileInputs.cache
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.RepositoryMock\bin\Debug\net5.0\AcademyIWeek1.Pizz.RepositoryMock.deps.json
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.RepositoryMock\bin\Debug\net5.0\AcademyIWeek1.Pizz.RepositoryMock.dll
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.RepositoryMock\bin\Debug\net5.0\ref\AcademyIWeek1.Pizz.RepositoryMock.dll
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.RepositoryMock\bin\Debug\net5.0\AcademyIWeek1.Pizz.RepositoryMock.pdb
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.RepositoryMock\bin\Debug\net5.0\AcademyIWeek1.Pizz.CORE.dll
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.RepositoryMock\bin\Debug\net5.0\AcademyIWeek1.Pizz.CORE.pdb
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.RepositoryMock\obj\Debug\net5.0\AcademyIWeek1.Pizz.RepositoryMock.csproj.CopyComplete
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.RepositoryMock\obj\Debug\net5.0\AcademyIWeek1.Pizz.RepositoryMock.dll
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.RepositoryMock\obj\Debug\net5.0\ref\AcademyIWeek1.Pizz.RepositoryMock.dll
+C:\Users\naima.el.khattabi\source\repos\AcademyIWeek1.Pizz\AcademyIWeek1.Pizz.RepositoryMock\obj\Debug\net5.0\AcademyIWeek1.Pizz.RepositoryMock.pdb

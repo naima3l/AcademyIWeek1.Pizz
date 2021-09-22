@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\naima.el.khattabi\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\naima.el.khattabi\\.nuget\\packages"
+    ]
+  }
+}

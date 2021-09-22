@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "AcademyIWeek1.Pizz.RepositoryMock/1.0.0": {
+        "dependencies": {
+          "AcademyIWeek1.Pizz.CORE": "1.0.0"
+        },
+        "runtime": {
+          "AcademyIWeek1.Pizz.RepositoryMock.dll": {}
+        }
+      },
+      "AcademyIWeek1.Pizz.CORE/1.0.0": {
+        "runtime": {
+          "AcademyIWeek1.Pizz.CORE.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AcademyIWeek1.Pizz.RepositoryMock/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AcademyIWeek1.Pizz.CORE/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
