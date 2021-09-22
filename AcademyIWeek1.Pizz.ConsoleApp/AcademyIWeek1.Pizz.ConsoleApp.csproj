@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AcademyIWeek1.Pizz.CORE\AcademyIWeek1.Pizz.CORE.csproj" />
+    <ProjectReference Include="..\AcademyIWeek1.Pizz.RepositoryADO\AcademyIWeek1.Pizz.RepositoryADO.csproj" />
     <ProjectReference Include="..\AcademyIWeek1.Pizz.RepositoryMock\AcademyIWeek1.Pizz.RepositoryMock.csproj" />
   </ItemGroup>
 

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyIWeek1.Pizz.CORE", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyIWeek1.Pizz.RepositoryMock", "AcademyIWeek1.Pizz.RepositoryMock\AcademyIWeek1.Pizz.RepositoryMock.csproj", "{AC1490C5-6EDC-4839-B15D-CD4F44A42348}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyIWeek1.Pizz.RepositoryADO", "AcademyIWeek1.Pizz.RepositoryADO\AcademyIWeek1.Pizz.RepositoryADO.csproj", "{6491D2B4-90DA-4B4C-B046-DD48ECA1E4A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AC1490C5-6EDC-4839-B15D-CD4F44A42348}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC1490C5-6EDC-4839-B15D-CD4F44A42348}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC1490C5-6EDC-4839-B15D-CD4F44A42348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6491D2B4-90DA-4B4C-B046-DD48ECA1E4A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6491D2B4-90DA-4B4C-B046-DD48ECA1E4A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6491D2B4-90DA-4B4C-B046-DD48ECA1E4A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6491D2B4-90DA-4B4C-B046-DD48ECA1E4A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

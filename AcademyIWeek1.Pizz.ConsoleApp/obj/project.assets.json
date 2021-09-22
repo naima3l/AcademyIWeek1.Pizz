@@ -12,6 +12,19 @@
           "bin/placeholder/AcademyIWeek1.Pizz.CORE.dll": {}
         }
       },
+      "AcademyIWeek1.Pizz.RepositoryADO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "AcademyIWeek1.Pizz.CORE": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AcademyIWeek1.Pizz.RepositoryADO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AcademyIWeek1.Pizz.RepositoryADO.dll": {}
+        }
+      },
       "AcademyIWeek1.Pizz.RepositoryMock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -33,6 +46,11 @@
       "path": "../AcademyIWeek1.Pizz.CORE/AcademyIWeek1.Pizz.CORE.csproj",
       "msbuildProject": "../AcademyIWeek1.Pizz.CORE/AcademyIWeek1.Pizz.CORE.csproj"
     },
+    "AcademyIWeek1.Pizz.RepositoryADO/1.0.0": {
+      "type": "project",
+      "path": "../AcademyIWeek1.Pizz.RepositoryADO/AcademyIWeek1.Pizz.RepositoryADO.csproj",
+      "msbuildProject": "../AcademyIWeek1.Pizz.RepositoryADO/AcademyIWeek1.Pizz.RepositoryADO.csproj"
+    },
     "AcademyIWeek1.Pizz.RepositoryMock/1.0.0": {
       "type": "project",
       "path": "../AcademyIWeek1.Pizz.RepositoryMock/AcademyIWeek1.Pizz.RepositoryMock.csproj",
@@ -42,6 +60,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "AcademyIWeek1.Pizz.CORE >= 1.0.0",
+      "AcademyIWeek1.Pizz.RepositoryADO >= 1.0.0",
       "AcademyIWeek1.Pizz.RepositoryMock >= 1.0.0"
     ]
   },
@@ -74,6 +93,9 @@
           "projectReferences": {
             "C:\\Users\\naima.el.khattabi\\source\\repos\\AcademyIWeek1.Pizz\\AcademyIWeek1.Pizz.CORE\\AcademyIWeek1.Pizz.CORE.csproj": {
               "projectPath": "C:\\Users\\naima.el.khattabi\\source\\repos\\AcademyIWeek1.Pizz\\AcademyIWeek1.Pizz.CORE\\AcademyIWeek1.Pizz.CORE.csproj"
+            },
+            "C:\\Users\\naima.el.khattabi\\source\\repos\\AcademyIWeek1.Pizz\\AcademyIWeek1.Pizz.RepositoryADO\\AcademyIWeek1.Pizz.RepositoryADO.csproj": {
+              "projectPath": "C:\\Users\\naima.el.khattabi\\source\\repos\\AcademyIWeek1.Pizz\\AcademyIWeek1.Pizz.RepositoryADO\\AcademyIWeek1.Pizz.RepositoryADO.csproj"
             },
             "C:\\Users\\naima.el.khattabi\\source\\repos\\AcademyIWeek1.Pizz\\AcademyIWeek1.Pizz.RepositoryMock\\AcademyIWeek1.Pizz.RepositoryMock.csproj": {
               "projectPath": "C:\\Users\\naima.el.khattabi\\source\\repos\\AcademyIWeek1.Pizz\\AcademyIWeek1.Pizz.RepositoryMock\\AcademyIWeek1.Pizz.RepositoryMock.csproj"

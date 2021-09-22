@@ -1,5 +1,6 @@
 ﻿using AcademyIWeek1.Pizz.CORE.BusinessLayer;
 using AcademyIWeek1.Pizz.CORE.Entities;
+using AcademyIWeek1.Pizz.RepositoryADO;
 using AcademyIWeek1.Pizz.RepositoryMock;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,8 @@ namespace AcademyIWeek1.Pizz.ConsoleApp
 {
     class Program
     {
-        private static readonly IBusinessLayer bl = new BusinessLayer(new RepositoryPizzeMock(), new RepositoryIngredientiMock(), new RepositoryPizzeIngredientiMock());
+        //private static readonly IBusinessLayer bl = new BusinessLayer(new RepositoryPizzeMock(), new RepositoryIngredientiMock(), new RepositoryPizzeIngredientiMock());
+        private static readonly IBusinessLayer bl = new BusinessLayer(new RepositoryPizzeADO(), new RepositoryIngredientiADO(), new RepositoryPizzeIngredientiADO());
         private static List<Pizza> pizzeScelte = new List<Pizza>();
         static void Main(string[] args)
         {
