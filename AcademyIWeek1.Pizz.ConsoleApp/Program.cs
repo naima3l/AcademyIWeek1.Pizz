@@ -18,7 +18,7 @@ namespace AcademyIWeek1.Pizz.ConsoleApp
             do
             {
                 Console.WriteLine("1. Scegli pizze dal menu generale");
-                Console.WriteLine("2. Scegli pizze per ingredienti");
+                Console.WriteLine("2. Visualizza le pizze per ingrediente");
                 Console.WriteLine("0. Exit");
 
                 int scelta;
@@ -37,7 +37,7 @@ namespace AcademyIWeek1.Pizz.ConsoleApp
                         ChoosePizza();
                         break;
                     case 2:
-                        ChoosePizzaByIngrediente();
+                        ShowPizzaByIngrediente();
                         break;
 
                 }
@@ -89,7 +89,7 @@ namespace AcademyIWeek1.Pizz.ConsoleApp
         }
 
 
-        private static void ChoosePizzaByIngrediente()
+        private static void ShowPizzaByIngrediente()
         {
             List<Ingrediente> ingredienti = bl.FetchIngredienti();
             PrintIngredienti(ingredienti);
@@ -108,16 +108,26 @@ namespace AcademyIWeek1.Pizz.ConsoleApp
                 else
                 {
                     var pizzePossibili = bl.GetPizzeByIngrediente(ingredienteScelto);
+                    if (pizzePossibili.Count == 0)
+                    {
+                        Console.WriteLine($"Non ci sono pizze con ingrediente {ingredienteScelto}");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Le pizze con ingrediente {ingredienteScelto} sono : ");
+                        PrintPizze(pizzePossibili);
+                    }
+                    continuare = false;
                 }
 
-                Console.WriteLine("Vuoi aggiungere un'altra pizza?\n Premi S per si");
-                var scelta = Console.ReadKey();
-                continuare = ConsoleKey.S.Equals(scelta.Key);
-                Console.WriteLine();
+                //Console.WriteLine("Vuoi aggiungere un'altra pizza?\n Premi S per si");
+                //var scelta = Console.ReadKey();
+                //continuare = ConsoleKey.S.Equals(scelta.Key);
+                //Console.WriteLine();
             }
             while (continuare);
 
-            bl.StampaScontrino(pizzeScelte);
+            //bl.StampaScontrino(pizzeScelte);
 
 
         }

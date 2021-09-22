@@ -11,5 +11,6 @@ namespace AcademyIWeek1.Pizz.CORE.InterfaceRepository
     {
         public List<Pizza> Fetch(List<Ingrediente> ingredienti, List<PizzaIngrediente> pizzeIngredienti);
         List<Pizza> GetPizzeByIngrediente(Ingrediente ingredienteScelto);
+        List<Pizza> GetPizzeByIngrediente(Ingrediente ingredienteScelto,List<Ingrediente> ingredienti, List<PizzaIngrediente> pizzeIngredienti);
     }
 }

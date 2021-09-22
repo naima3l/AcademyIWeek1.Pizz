@@ -55,6 +55,34 @@ namespace AcademyIWeek1.Pizz.RepositoryMock
             throw new NotImplementedException();
         }
 
+        public List<Pizza> GetPizzeByIngrediente(Ingrediente ingredienteScelto, List<Ingrediente> ingredienti, List<PizzaIngrediente> pizzeIngredienti)
+        {
+            var pizze = Fetch();
+
+            var matrix = (from pizza in pizze
+                          join pizzaIngrediente in pizzeIngredienti on pizza.Id equals pizzaIngrediente.IdPizza
+                          join ingrediente in ingredienti on pizzaIngrediente.IdIngrediente equals ingrediente.Id
+                          where ingrediente.Nome == ingredienteScelto.Nome
+                          select new PizzaWithIngrediente(pizza.Id, pizza.Nome, pizza.Prezzo, ingrediente.Nome));
+
+            var pizzeWithIngredients = from row in matrix
+                                       group row by new
+                                       {
+                                           row.IdPizza,
+                                           row.Name,
+                                           row.Price,
+                                       } into listIngredienti
+                                       select new Pizza()
+                                       {
+                                           Nome = listIngredienti.Key.Name,
+                                           Id = listIngredienti.Key.IdPizza,
+                                           Prezzo = listIngredienti.Key.Price,
+                                           Ingredienti = listIngredienti.Select(i => i.NameIngrediente).ToList()
+                                       };
+
+            return pizzeWithIngredients.ToList();
+        }
+
         public struct PizzaWithIngrediente
         {
             public int IdPizza { get; set; }

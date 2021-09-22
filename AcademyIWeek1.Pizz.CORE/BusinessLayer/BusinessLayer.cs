@@ -138,7 +138,10 @@ namespace AcademyIWeek1.Pizz.CORE.BusinessLayer
 
         public List<Pizza> GetPizzeByIngrediente(Ingrediente ingredienteScelto)
         {
-            return pizzeRepo.GetPizzeByIngrediente(ingredienteScelto);
+            //return pizzeRepo.GetPizzeByIngrediente(ingredienteScelto);
+            var ingredienti = ingredientiRepo.Fetch();
+            var pizzeIngredienti = pizzeIngredientiRepo.Fetch();
+            return pizzeRepo.GetPizzeByIngrediente(ingredienteScelto,ingredienti, pizzeIngredienti);
         }
     }
 }
